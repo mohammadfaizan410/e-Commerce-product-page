@@ -1,0 +1,44 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border-radius: 5px;
+  width: 100vw;
+}
+
+.main-content-wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 768px){
+  .App{
+    flex-direction: column;
+    height: min-content;
+    background-color: white;
+  }
+
+    .main-content-wrapper {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+  }
+  
+}
+
+
+
